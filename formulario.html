@@ -9,6 +9,93 @@
 </head>
 
 <body>
+  <form action="">
+    <label for="first-name">
+      <span>Nombre(s): </span>
+      <input type="text" id="first-name" placeholder="Introduce tu nombre(s)">
+    </label><br>
+    <label for="last-name">
+      <span>Apellido(s): </span>
+      <input type="text" id="last-name" placeholder="Apellido Paterno y Materno">
+    </label><br>
+    <label for="inicio-platzi">
+      <span>inicio de platzi: </span>
+      <input type="date" id="inicio-platzi">
+    </label><br>
+    <label for="horario-estudio">
+      <span>Horario de estudio: </span>
+      <input type="time" id="horario-estudio">
+    </label>
+    <hr>
+    <!--para convertir codigo en comentario CTRL+K....CTRL+C-->
+    <h2>calendario formado de forma individual</h2>
+    <label for="Hora">
+      <span>Hora: </span>
+      <input type="time" id="Hora" name="Hora">
+    </label><br>
+    <label for="dia">
+      <span>dia: </span>
+      <input type="date" id="dia" name="dia">
+    </label><br>
+    <label for="semana">
+      <span>semana: </span>
+      <input type="week" id="semana" name="semana">
+    </label><br>
+    <label for="mes">
+      <span>mes: </span>
+      <input type="month" id="mes" name="mes">
+    </label><br>
+    <hr>
+    <h2>calendario </h2>
+    <label for="Calendario">
+      <span>Calendario: </span>
+      <input type="datetime-local" id="Calendario" name="Calendario">
+    </label><br>
+    <hr>
+    <label for="first-name">
+      <span>Nombre(s): </span>
+      <input type="text" id="first-name" placeholder="Introduce tu nombre(s)" autocomplete="name" required>
+    </label><br>
+    <label for="last-name">
+      <span>Apellido(s): </span>
+      <input type="text" id="last-name" placeholder="Apellido Paterno y Materno" autocomplete="family-name" required>
+    </label><br>
+    <label for="correo">
+      <span>Correo: </span>
+      <input type="email" id="correo" name="correo" autocomplete="email" required>
+    </label><br>
+    <label for="Pais">
+      <span>Pais: </span>
+      <input type="text" id="Pais" name="Pais" autocomplete="country" required>
+    </label><br>
+    <label for="pais-list">
+      <span>Pais: </span>
+      <input list="pais-list" name="pais-list" autocomplete="country" required>
+      <datalist id="pais-list">
+        <option value="mexico">mexico</option>
+        <option value="españa">españa</option>
+        <option value="argentina">argentina</option>
+      </datalist>
+    </label><br>
+    <select name="paises" id="paises">
+      <option value="mexico">mexico</option>
+      <option value="españa">españa</option>
+      <option value="argentina">argentina</option>
+    </select><br>
+    <label for="cp">
+      <span>Codigo Postal: </span>
+      <input type="text" id="cp" name="cp" autocomplete="postal-code" required>
+    </label><br>
+    <label for="">
+      <span>personaje: </span>
+      <input list="personajes">
+      <datalist id="personajes">
+        <option value="goku"></option>
+        <option value="mario"></option>
+      </datalist></label>
+    <hr>
+    <input type="submit">
+  </form>
 
 </body>
 
