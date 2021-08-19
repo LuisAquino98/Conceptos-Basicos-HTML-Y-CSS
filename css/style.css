@@ -8,17 +8,7 @@ section {
   left: 10%;
   border: outset pink;
 }
-#frutas .producto {
-  display: inline-block;
-  margin-right: 0.25em;
-  box-sizing: border-box;
-}
-#carnes .producto {
-  display: inline-block;
-  margin-right: 0.25em;
-  box-sizing: border-box;
-}
-#verduras .producto {
+.area__producto {
   display: inline-block;
   margin-right: 0.25em;
   box-sizing: border-box;
@@ -30,11 +20,23 @@ li {
 h2 {
   text-align: center;
 }
-a {
+.area__producto-a {
   text-decoration: none;
   color: rgb(39, 133, 70);
 }
 a:hover {
   color: white;
   background-color: rgb(39, 133, 70);
+}
+.main-nav__item {
+  display: inline-block;
+}
+
+.main-nav__item-a {
+  padding: 0.25em;
+  color: white;
+  border-radius: 0.2em;
+  background-color: rgb(39, 133, 70);
+  text-decoration: none;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
 }
