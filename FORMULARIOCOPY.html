@@ -51,12 +51,14 @@
       padding: 15px;
       /* justify-content: space-between; */
       /* align-items: center; */
-      border-radius: 25px;
+      border-radius: 2em;
       background-color: rgb(255, 216, 89);
       border: none;
-      width: 100%;
+      width: 92%;
       color: #00519e;
       font-weight: bold;
+      position: relative;
+      left: 4%;
     }
 
     input[type="file"] {
@@ -92,35 +94,45 @@
       font-weight: bold;
       outline: none;
     }
+
+    .contaner {
+      border-style: solid;
+      border-width: .3em;
+      border-color: rgb(255, 216, 89);
+      padding: .25em .25em 1em .25em;
+      border-radius: 1.5em;
+    }
   </style>
 </head>
 
 <body>
-  <form action="">
-    <label for="email" class="email_container">
-      <span class="title">G-mail:</span>
-      <input type="email" id="email" placeholder="example@example.com">
-      <span>📧</span>
-    </label>
-    <label for="password" class="email_container">
-      <span class="title">Password:</span>
-      <input type="password" id="password" placeholder="****************">
-      <span>🔑</span>
-    </label>
-    <label for="file" class="email_container">
-      <input type="file" id="file">
-      <span>📁</span>
-    </label>
-    <label for="date" class="email_container">
-      <span class="title">Fecha de nacimiento:</span>
-      <input type="date" id="date">
-    </label>
-    <label for="date" class="email_container">
-      <span class="title">Horas en las que transitas:</span>
-      <input type="time" id="date">
-    </label>
-    <input type="submit" value="Regístrate">
-  </form>
+  <div class="contaner">
+    <form action="">
+      <label for="email" class="email_container">
+        <span class="title">G-mail:</span>
+        <input type="email" id="email" placeholder="example@example.com">
+        <span>📧</span>
+      </label>
+      <label for="password" class="email_container">
+        <span class="title">Password:</span>
+        <input type="password" id="password" placeholder="****************">
+        <span>🔑</span>
+      </label>
+      <label for="file" class="email_container">
+        <input type="file" id="file">
+        <span>📁</span>
+      </label>
+      <label for="date" class="email_container">
+        <span class="title">Fecha de nacimiento:</span>
+        <input type="date" id="date">
+      </label>
+      <label for="date" class="email_container">
+        <span class="title">Horas en las que transitas:</span>
+        <input type="time" id="date">
+      </label>
+      <input type="submit" value="Regístrate">
+    </form>
+  </div>
   <!-- FORMAS DE HACERLO INCORRECTAS <div>
     <input type="text">
     <input type="file">
