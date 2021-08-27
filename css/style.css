@@ -40,3 +40,11 @@ a:hover {
   text-decoration: none;
   font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
 }
+/* viendo valor thin de border-width seria el equivalente a 1px
+medium a 3px
+y thick a 5px
+.categoria__frutas {
+  border-style: solid;
+  border-width: thin;
+  border-color: blue;
+} */
