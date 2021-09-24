@@ -1,3 +1,3 @@
 # htmlycss
-todo el contenido del curso de html y css de platzi
+todo el contenido 
 https://luisaquino98.github.io/htmlycss/
