@@ -1,0 +1,59 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+*::after {
+  margin: 0;
+  padding: 0;
+}
+*::before {
+  margin: 0;
+  padding: 0;
+}
+header {
+  height: 10vh;
+  background-color: blueviolet;
+}
+img,
+nav {
+  display: inline-block;
+}
+header > img {
+  width: 50px;
+}
+nav {
+  position: absolute;
+  right: 0%;
+}
+nav > a {
+  font-size: 1.5rem;
+  text-decoration: none;
+  color: white;
+  margin: 0 5px;
+}
+aside {
+  background-color: blue;
+  width: 20%;
+  height: 90vh;
+}
+aside > article {
+  margin: 0.05em;
+  width: 90%;
+  position: relative;
+  left: 5%;
+  margin-top: 1em;
+  height: 20%;
+  background-color: aqua;
+  border-radius: 0.5em;
+}
+main {
+  float: right;
+  width: 80%;
+  height: 90vh;
+  background-color: bisque;
+}
+aside,
+main {
+  display: inline-block;
+}
